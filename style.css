@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 12rem;
+    box-shadow: 0 0 2px 0 rgb(0,0,0,0.5);
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    color: blue;
+
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    width: 50;
+    height: 30;
+    padding: 10px;
+    border: 0;
+    margin-left: 48px;
+}
+.btn:hover{
+   cursor: pointer;
+}
